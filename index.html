@@ -5,9 +5,21 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="./style/index.css" />
-    <title>JS starter</title>
+    <title>Calculator</title>
   </head>
   <body>
+    <form id="input">
+      <label><input id="firstNumber" type="number" value="0" /></label>
+      <select id="operator">
+        <option>+</option>
+        <option>-</option>
+        <option>*</option>
+        <option>/</option>
+      </select>
+      <label><input id="secondNumber" type="number" value="0" /></label>
+      <hr />
+      <pre id="output" class="result"></pre>
+    </form>
     <script src="./src/index.js"></script>
   </body>
 </html>
